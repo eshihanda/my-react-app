@@ -1,0 +1,139 @@
+/* /* .counter-container {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.count-display {
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.counter-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: rgb(0, 47, 255);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.counter-button:hover {
+  background-color: rgb(0, 81, 255);
+} */
+
+/* body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.colorpicker-container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: 3rem;
+  margin: 50px;
+
+}
+.color-display {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  border: 5px solid hsl(0, 0%, 80%);
+  margin-bottom: 25px;
+  transition: 0.25s ease-in;
+}
+.color-display p {
+  font-size: 2rem;
+  color: rgb(51, 49, 49);
+  text-align: center;
+}
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+input[type="color"]{
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 80%);
+} */
+
+/* To-do-list styling */
+.todo-list {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1 {
+  font-size: 4rem;
+}
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+.add-button {
+  background-color: rgb(132, 175, 147);
+}
+.add-button:hover {
+  background-color: rgb(25, 141, 31);
+}
+.del-btn {
+  background-color: rgb(175, 9, 9);
+}
+.del-btn:hover {
+  background-color: rgb(201, 100, 100);
+}
+.move-btn {
+  background-color: rgb(15, 12, 185);
+}
+.move-btn:hover {
+  background-color: rgb(168, 167, 206);
+}
+.move-btn-down{
+  background-color: rgb(5, 129, 22);
+}
+.move-btn-down:hover {
+  background-color: rgb(133, 180, 135);
+}
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsl(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: black;
+}
+ol {
+  padding: 0;
+}
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0, 0, 0.75);
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text {
+  flex: 1;
+}
+.del-btn, .move-btn, .move-btn-down {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
